@@ -12,4 +12,4 @@ Forholdene både for internett og TV vil antagelig være bedre enn hjemme. Når 
 
 ![](/assets/images/b6.jpg){: .image .featured}
 ![](/assets/images/b7.jpg){: .image .featured}
-![](/assets/images/b8.jpg){: .image .featured}
+![](/assets/images/b8.JPG){: .image .featured}
