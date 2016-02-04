@@ -1,7 +1,7 @@
 define([
 	"../core",
 	"../core/access",
-	"./support"
+	"{{ site.baseurl }}support"
 ], function( jQuery, access, support ) {
 
 var rfocusable = /^(?:input|select|textarea|button)$/i;

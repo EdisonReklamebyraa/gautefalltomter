@@ -1,9 +1,9 @@
 define([
-	"./core",
-	"./manipulation/var/rcheckableType",
-	"./core/init",
-	"./traversing", // filter
-	"./attributes/prop"
+	"{{ site.baseurl }}core",
+	"{{ site.baseurl }}manipulation/var/rcheckableType",
+	"{{ site.baseurl }}core/init",
+	"{{ site.baseurl }}traversing", // filter
+	"{{ site.baseurl }}attributes/prop"
 ], function( jQuery, rcheckableType ) {
 
 var r20 = /%20/g,

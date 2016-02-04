@@ -1,5 +1,5 @@
 define([
-	"./core"
+	"{{ site.baseurl }}core"
 ], function( jQuery ) {
 
 /*

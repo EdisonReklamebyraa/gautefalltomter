@@ -1,5 +1,5 @@
 define([
-	"./core",
+	"{{ site.baseurl }}core",
 	"sizzle"
 ], function( jQuery, Sizzle ) {
 

@@ -158,7 +158,7 @@
         tip_template = window[settings.tip_template];
       }
 
-      var $tip = $(tip_template(this.selector($target), $('<div></div>').html($target.attr('title')).html())),
+      var $tip = $(tip_template(this.selector($target), $('<div></div>')/($target.attr('title'))/())),
           classes = this.inheritable_classes($target);
 
       $tip.addClass(classes).appendTo(settings.append_to);

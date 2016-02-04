@@ -1,5 +1,5 @@
 define([
-	"./arr"
+	"{{ site.baseurl }}arr"
 ], function( arr ) {
 	return arr.slice;
 });

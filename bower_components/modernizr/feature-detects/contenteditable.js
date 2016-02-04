@@ -1,5 +1,5 @@
 // contentEditable
-// http://www.whatwg.org/specs/web-apps/current-work/multipage/editing.html#contenteditable
+// http://www.whatwg.org/specs/web-apps/current-work/multipage/editing/#contenteditable
 
 // this is known to false positive in some mobile browsers
 // here is a whitelist of verified working browsers:

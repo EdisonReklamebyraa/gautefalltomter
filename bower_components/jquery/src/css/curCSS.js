@@ -1,8 +1,8 @@
 define([
 	"../core",
-	"./var/rnumnonpx",
-	"./var/rmargin",
-	"./var/getStyles",
+	"{{ site.baseurl }}var/rnumnonpx",
+	"{{ site.baseurl }}var/rmargin",
+	"{{ site.baseurl }}var/getStyles",
 	"../selector" // contains
 ], function( jQuery, rnumnonpx, rmargin, getStyles ) {
 

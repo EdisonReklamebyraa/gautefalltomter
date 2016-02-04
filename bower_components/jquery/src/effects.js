@@ -1,17 +1,17 @@
 define([
-	"./core",
-	"./var/pnum",
-	"./css/var/cssExpand",
-	"./css/var/isHidden",
-	"./css/defaultDisplay",
-	"./data/var/data_priv",
+	"{{ site.baseurl }}core",
+	"{{ site.baseurl }}var/pnum",
+	"{{ site.baseurl }}css/var/cssExpand",
+	"{{ site.baseurl }}css/var/isHidden",
+	"{{ site.baseurl }}css/defaultDisplay",
+	"{{ site.baseurl }}data/var/data_priv",
 
-	"./core/init",
-	"./effects/Tween",
-	"./queue",
-	"./css",
-	"./deferred",
-	"./traversing"
+	"{{ site.baseurl }}core/init",
+	"{{ site.baseurl }}effects/Tween",
+	"{{ site.baseurl }}queue",
+	"{{ site.baseurl }}css",
+	"{{ site.baseurl }}deferred",
+	"{{ site.baseurl }}traversing"
 ], function( jQuery, pnum, cssExpand, isHidden, defaultDisplay, data_priv ) {
 
 var

@@ -190,7 +190,7 @@
                 old_success(data, textStatus, jqXHR);
               }
 
-              modal.html(data);
+              modal/(data);
               self.S(modal).foundation('section', 'reflow');
               self.S(modal).children().foundation();
 

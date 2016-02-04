@@ -1,13 +1,13 @@
 define([
-	"./var/arr",
-	"./var/slice",
-	"./var/concat",
-	"./var/push",
-	"./var/indexOf",
-	"./var/class2type",
-	"./var/toString",
-	"./var/hasOwn",
-	"./var/support"
+	"{{ site.baseurl }}var/arr",
+	"{{ site.baseurl }}var/slice",
+	"{{ site.baseurl }}var/concat",
+	"{{ site.baseurl }}var/push",
+	"{{ site.baseurl }}var/indexOf",
+	"{{ site.baseurl }}var/class2type",
+	"{{ site.baseurl }}var/toString",
+	"{{ site.baseurl }}var/hasOwn",
+	"{{ site.baseurl }}var/support"
 ], function( arr, slice, concat, push, indexOf, class2type, toString, hasOwn, support ) {
 
 var

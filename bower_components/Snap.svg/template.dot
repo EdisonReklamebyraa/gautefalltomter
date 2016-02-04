@@ -97,7 +97,7 @@
                                           {{~}}
                                       </ol>
                                   </div>{{ } }}
-                                  {{ if (line.html) { }}{{=line.html}}
+                                  {{ if (line/) { }}{{=line/}}
                                   {{ } }}
                                   {{ if (line.head) { }}<h3>{{=line.head}}</h3>
                                   {{ } }}

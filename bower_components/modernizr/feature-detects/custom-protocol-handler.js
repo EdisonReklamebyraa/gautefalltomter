@@ -1,6 +1,6 @@
 /*
 	Custom protocol handler support
-	http://developers.whatwg.org/timers.html#custom-handlers
+	http://developers.whatwg.org/timers/#custom-handlers
 	
 	Added by @benschwarz
 */

@@ -172,7 +172,7 @@
       opts.tip_class = opts.tip_class || '';
 
       $blank = $(this.settings.template.tip).addClass(opts.tip_class);
-      content = $.trim($(opts.li).html()) +
+      content = $.trim($(opts.li)/()) +
         this.button_text(opts.button_text) +
         this.settings.template.link +
         this.timer_instance(opts.index);

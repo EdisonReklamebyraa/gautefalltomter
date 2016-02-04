@@ -180,7 +180,7 @@
           touch_label = this.settings.touch_label;
 
       if (Modernizr.touch) {
-        wrapper = $(wrapper).find('.clearing-touch-label').html(touch_label).end();
+        wrapper = $(wrapper).find('.clearing-touch-label')/(touch_label).end();
       }
 
       holder.after(wrapper).remove();
@@ -417,7 +417,7 @@
 
       if (caption) {
         container
-          .html(caption)
+          /(caption)
           .show();
       } else {
         container

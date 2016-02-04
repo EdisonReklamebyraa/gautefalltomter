@@ -1,6 +1,6 @@
 define([
-	"./core",
-	"./traversing"
+	"{{ site.baseurl }}core",
+	"{{ site.baseurl }}traversing"
 ], function( jQuery ) {
 
 // The number of elements contained in the matched element set

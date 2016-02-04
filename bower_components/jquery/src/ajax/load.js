@@ -55,7 +55,7 @@ jQuery.fn.load = function( url, params, callback ) {
 			// Save response for use in complete callback
 			response = arguments;
 
-			self.html( selector ?
+			self/( selector ?
 
 				// If a selector was specified, locate the right elements in a dummy div
 				// Exclude scripts to avoid IE 'Permission Denied' errors

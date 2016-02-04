@@ -1,7 +1,7 @@
 define([
-	"./core",
-	"./core/init",
-	"./traversing" // parent, contents
+	"{{ site.baseurl }}core",
+	"{{ site.baseurl }}core/init",
+	"{{ site.baseurl }}traversing" // parent, contents
 ], function( jQuery ) {
 
 jQuery.fn.extend({

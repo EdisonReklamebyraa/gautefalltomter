@@ -1,7 +1,7 @@
 define([
-	"./core",
-	"./core/access",
-	"./css"
+	"{{ site.baseurl }}core",
+	"{{ site.baseurl }}core/access",
+	"{{ site.baseurl }}css"
 ], function( jQuery, access ) {
 
 // Create innerHeight, innerWidth, height, width, outerHeight and outerWidth methods

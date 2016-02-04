@@ -8,12 +8,12 @@ layout: blog
 	</header>
 	{% for post in paginator.posts %}
   	<section class="box special">
-			<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<span class="date">{{ post.date | date_to_string }}</span>
       <img src="{{ post.image}}"  class="image featured">
 			{{ post.excerpt }} 
 			<ul class="actions">
-				<li><a href="{{ site.baseurl }}{{ post.url }}" class="button alt">Les mer</a></li>
+				<li><a href="{{ post.url }}" class="button alt">Les mer</a></li>
 			</ul>
       
 		</section>

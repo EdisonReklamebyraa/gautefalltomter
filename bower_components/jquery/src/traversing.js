@@ -1,10 +1,10 @@
 define([
-	"./core",
-	"./var/indexOf",
-	"./traversing/var/rneedsContext",
-	"./core/init",
-	"./traversing/findFilter",
-	"./selector"
+	"{{ site.baseurl }}core",
+	"{{ site.baseurl }}var/indexOf",
+	"{{ site.baseurl }}traversing/var/rneedsContext",
+	"{{ site.baseurl }}core/init",
+	"{{ site.baseurl }}traversing/findFilter",
+	"{{ site.baseurl }}selector"
 ], function( jQuery, indexOf, rneedsContext ) {
 
 var rparentsprev = /^(?:parents|prev(?:Until|All))/,

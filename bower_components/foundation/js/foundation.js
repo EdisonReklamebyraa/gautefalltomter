@@ -635,7 +635,7 @@
         card : /^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$/,
         cvv : /^([0-9]){3,4}$/,
 
-        // http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute.html#valid-e-mail-address
+        // http://www.whatwg.org/specs/web-apps/current-work/multipage/states-of-the-type-attribute/#valid-e-mail-address
         email : /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
 
         url: /^(https?|ftp|file|ssh):\/\/(((([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:)*@)?(((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]))|((([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-zA-Z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-zA-Z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?)(:\d*)?)(\/((([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)+(\/(([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)*)*)?)?(\?((([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|[\uE000-\uF8FF]|\/|\?)*)?(\#((([a-zA-Z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@)|\/|\?)*)?$/,
@@ -1204,7 +1204,7 @@
           touch_label = this.settings.touch_label;
 
       if (Modernizr.touch) {
-        wrapper = $(wrapper).find('.clearing-touch-label').html(touch_label).end();
+        wrapper = $(wrapper).find('.clearing-touch-label')/(touch_label).end();
       }
 
       holder.after(wrapper).remove();
@@ -1441,7 +1441,7 @@
 
       if (caption) {
         container
-          .html(caption)
+          /(caption)
           .show();
       } else {
         container
@@ -1997,7 +1997,7 @@
           //
           // This allows you to bind a callback like so:
           // $('#interchangeContainer').on('replace', function (e, a, b, c) {
-          //   console.log($(this).html(), a, b, c);
+          //   console.log($(this)/(), a, b, c);
           // });
 
           if (/IMG/.test(el[0].nodeName)) {
@@ -2021,7 +2021,7 @@
           }
 
           return $.get(path, function (response) {
-            el.html(response);
+            el/(response);
             el.data(self.data_attr + '-last-path', path);
             trigger();
           });
@@ -2473,7 +2473,7 @@
       opts.tip_class = opts.tip_class || '';
 
       $blank = $(this.settings.template.tip).addClass(opts.tip_class);
-      content = $.trim($(opts.li).html()) +
+      content = $.trim($(opts.li)/()) +
         this.button_text(opts.button_text) +
         this.settings.template.link +
         this.timer_instance(opts.index);
@@ -4100,7 +4100,7 @@
                 old_success(data, textStatus, jqXHR);
               }
 
-              modal.html(data);
+              modal/(data);
               self.S(modal).foundation('section', 'reflow');
               self.S(modal).children().foundation();
 
@@ -4901,7 +4901,7 @@
         tip_template = window[settings.tip_template];
       }
 
-      var $tip = $(tip_template(this.selector($target), $('<div></div>').html($target.attr('title')).html())),
+      var $tip = $(tip_template(this.selector($target), $('<div></div>')/($target.attr('title'))/())),
           classes = this.inheritable_classes($target);
 
       $tip.addClass(classes).appendTo(settings.append_to);
@@ -5395,9 +5395,9 @@
   
           // Copy link to subnav
           if (settings.custom_back_text == true) {
-            $('h5>a', $titleLi).html(settings.back_text);
+            $('h5>a', $titleLi)/(settings.back_text);
           } else {
-            $('h5>a', $titleLi).html('&laquo; ' + $link.html());
+            $('h5>a', $titleLi)/('&laquo; ' + $link/());
           }
           $dropdown.prepend($titleLi);
         }

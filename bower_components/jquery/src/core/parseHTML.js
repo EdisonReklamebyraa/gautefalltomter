@@ -1,6 +1,6 @@
 define([
 	"../core",
-	"./var/rsingleTag",
+	"{{ site.baseurl }}var/rsingleTag",
 	"../manipulation" // buildFragment
 ], function( jQuery, rsingleTag ) {
 

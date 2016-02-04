@@ -1,6 +1,6 @@
 //By Shi Chuan
 //Part of Device Access aspect of HTML5, same category as geolocation
-//W3C Editor's Draft at http://dev.w3.org/geo/api/spec-source-orientation.html
+//W3C Editor's Draft at http://dev.w3.org/geo/api/spec-source-orientation/
 //Implementation by iOS Safari at http://goo.gl/fhce3 and http://goo.gl/rLKz8
 
 

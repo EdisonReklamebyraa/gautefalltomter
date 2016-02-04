@@ -1,7 +1,7 @@
 define([
 	"../core",
 	"../var/rnotwhite",
-	"./accepts"
+	"{{ site.baseurl }}accepts"
 ], function( jQuery, rnotwhite ) {
 
 function Data() {

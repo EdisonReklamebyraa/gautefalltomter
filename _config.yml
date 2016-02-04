@@ -2,15 +2,16 @@ name : Gautefalltomter
 brand : Edison Menlo
 description : Gautefalltomter
 markdown: kramdown
-keyword: 
+keyword:
 url : http://edisonreklamebyraa.github.io/gautefalltomter/
 imageurl: http://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg
 email : admin@edisonmenlo.no
 author: Svein Erik Farstad
 year: 2014
-exclude: [node_modules]
-baseurl: ''
+exclude: ['src' , 'node_modules']
+include: ['_pages']
+baseurl: '/'
 
 paginate_path: "/gautefallbloggen/page:num/"
 paginate: 10
-permalink: /gautefallbloggen/:title/ 
+permalink: /gautefallbloggen/:title/

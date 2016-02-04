@@ -1,15 +1,15 @@
 define([
-	"./core",
-	"./var/strundefined",
-	"./core/access",
-	"./css/var/rnumnonpx",
-	"./css/curCSS",
-	"./css/addGetHookIf",
-	"./css/support",
+	"{{ site.baseurl }}core",
+	"{{ site.baseurl }}var/strundefined",
+	"{{ site.baseurl }}core/access",
+	"{{ site.baseurl }}css/var/rnumnonpx",
+	"{{ site.baseurl }}css/curCSS",
+	"{{ site.baseurl }}css/addGetHookIf",
+	"{{ site.baseurl }}css/support",
 
-	"./core/init",
-	"./css",
-	"./selector" // contains
+	"{{ site.baseurl }}core/init",
+	"{{ site.baseurl }}css",
+	"{{ site.baseurl }}selector" // contains
 ], function( jQuery, strundefined, access, rnumnonpx, curCSS, addGetHookIf, support ) {
 
 var docElem = window.document.documentElement;

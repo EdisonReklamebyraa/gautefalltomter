@@ -1,7 +1,7 @@
 define([
 	"../core",
 	"../var/indexOf",
-	"./var/rneedsContext",
+	"{{ site.baseurl }}var/rneedsContext",
 	"../selector"
 ], function( jQuery, indexOf, rneedsContext ) {
 
