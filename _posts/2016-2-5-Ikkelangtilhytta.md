@@ -9,8 +9,8 @@ Fra Sandefjord til Rauland eller Gaustablikk er det nesten 16 mil lengre og ca. 
 
 <!--more--> 
 
-Men det er ikke bare kjøringen hjem/hytte som er tungvint og tar mye tid. Ligger ikke hytta i gangavstand til skisenteret som både barn og voksne elsker, eller lysløypa om kvelden så må du også bruke mye tid på å kjøre fra hytta til og fra skisenteret både lørdag og søndag.
-Rytterspranget Vest er feltet med ski in/out og nærhet til alle fasilitetene på Gautefall. Les mer om hyttefeltet og området på [www.gautefalltomter.no](www.gautefalltomter.no) eller ring Olav på 98 22 18 45 hvis du har spørsmål eller ønsker en visning.
+Men det er ikke bare kjøringen hjem /hytte som er tungvint og tar mye tid. Ligger ikke hytta i gangavstand til skisenteret som både barn og voksne elsker, eller lysløypa om kvelden så må du også bruke mye tid på å kjøre fra hytta til og fra skisenteret både lørdag og søndag.
+Rytterspranget Vest er feltet med ski in/out og nærhet til alle fasilitetene på Gautefall. Les mer om hyttefeltet og området på www.gautefalltomter.no eller ring Olav på 98 22 18 45 hvis du har spørsmål eller ønsker en visning.
 
 * Raskeste vei fra Arendal til Rauland skisenter er 204 km og tar 3 timer og 12 minutter
 * Raskeste vei fra Arendal til Hovden skisenter er 227 km og tar 3 timer og 17 minutter
