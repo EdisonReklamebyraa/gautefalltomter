@@ -1,6 +1,7 @@
 ---
 title: Hvor lang tid er du villig til å bruke på kjøring at og frem til hytta på fjellet?
 layout: post
+image: /assets/images/veientilhytta.png
 ---
 
 
