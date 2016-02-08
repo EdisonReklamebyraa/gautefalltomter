@@ -1,6 +1,6 @@
 define([
-	"{{ site.baseurl }}core",
-	"{{ site.baseurl }}var/rnotwhite"
+	"./core",
+	"./var/rnotwhite"
 ], function( jQuery, rnotwhite ) {
 
 // String to Object options format cache

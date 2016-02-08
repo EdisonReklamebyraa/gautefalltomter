@@ -1,7 +1,7 @@
 // Initialize a jQuery object
 define([
 	"../core",
-	"{{ site.baseurl }}var/rsingleTag",
+	"./var/rsingleTag",
 	"../traversing/findFilter"
 ], function( jQuery, rsingleTag ) {
 

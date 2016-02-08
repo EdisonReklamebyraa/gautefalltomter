@@ -1,9 +1,9 @@
 define([
-	"{{ site.baseurl }}core",
-	"{{ site.baseurl }}var/rnotwhite",
-	"{{ site.baseurl }}core/access",
-	"{{ site.baseurl }}data/var/data_priv",
-	"{{ site.baseurl }}data/var/data_user"
+	"./core",
+	"./var/rnotwhite",
+	"./core/access",
+	"./data/var/data_priv",
+	"./data/var/data_user"
 ], function( jQuery, rnotwhite, access, data_priv, data_user ) {
 
 /*

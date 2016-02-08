@@ -1,12 +1,12 @@
 define([
-	"{{ site.baseurl }}core",
-	"{{ site.baseurl }}var/rnotwhite",
-	"{{ site.baseurl }}ajax/var/nonce",
-	"{{ site.baseurl }}ajax/var/rquery",
-	"{{ site.baseurl }}core/init",
-	"{{ site.baseurl }}ajax/parseJSON",
-	"{{ site.baseurl }}ajax/parseXML",
-	"{{ site.baseurl }}deferred"
+	"./core",
+	"./var/rnotwhite",
+	"./ajax/var/nonce",
+	"./ajax/var/rquery",
+	"./core/init",
+	"./ajax/parseJSON",
+	"./ajax/parseXML",
+	"./deferred"
 ], function( jQuery, rnotwhite, nonce, rquery ) {
 
 var

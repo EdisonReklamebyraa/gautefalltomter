@@ -1,6 +1,6 @@
 define([
 	"../core",
-	"{{ site.baseurl }}support",
+	"./support",
 	"../core/init"
 ], function( jQuery, support ) {
 

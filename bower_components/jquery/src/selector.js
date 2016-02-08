@@ -1,1 +1,1 @@
-define([ "{{ site.baseurl }}selector-sizzle" ]);
+define([ "./selector-sizzle" ]);

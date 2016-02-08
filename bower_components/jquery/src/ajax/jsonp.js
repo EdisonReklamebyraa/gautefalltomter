@@ -1,7 +1,7 @@
 define([
 	"../core",
-	"{{ site.baseurl }}var/nonce",
-	"{{ site.baseurl }}var/rquery",
+	"./var/nonce",
+	"./var/rquery",
 	"../ajax"
 ], function( jQuery, nonce, rquery ) {
 

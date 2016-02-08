@@ -104,7 +104,7 @@ Sometimes you need FastClick to ignore certain elements. You can do this easily 
 
 #### Use case 1: non-synthetic click required ####
 
-Internally, FastClick uses `document.createEvent` to fire a synthetic `click` event as soon as `touchend` is fired by the browser. It then suppresses the additional `click` event created by the browser after that. In some cases, the non-synthetic `click` event created by the browser is required, as described in the [triggering focus example](http://ftlabs.github.com/fastclick/examples/focus/).
+Internally, FastClick uses `document.createEvent` to fire a synthetic `click` event as soon as `touchend` is fired by the browser. It then suppresses the additional `click` event created by the browser after that. In some cases, the non-synthetic `click` event created by the browser is required, as described in the [triggering focus example](http://ftlabs.github.com/fastclick/examples/focus.html).
 
 This is where the `needsclick` class comes in. Add the class to any element that requires a non-synthetic click.
 
@@ -120,9 +120,9 @@ Another example of when to use the `needsclick` class is with dropdowns in Twitt
 
 FastClick is designed to cope with many different browser oddities. Here are some examples to illustrate this:
 
-* [basic use](http://ftlabs.github.com/fastclick/examples/layer/) showing the increase in perceived responsiveness
-* [triggering focus](http://ftlabs.github.com/fastclick/examples/focus/) on an input element from a `click` handler
-* [input element](http://ftlabs.github.com/fastclick/examples/input/) which never receives clicks but gets fast focus
+* [basic use](http://ftlabs.github.com/fastclick/examples/layer.html) showing the increase in perceived responsiveness
+* [triggering focus](http://ftlabs.github.com/fastclick/examples/focus.html) on an input element from a `click` handler
+* [input element](http://ftlabs.github.com/fastclick/examples/input.html) which never receives clicks but gets fast focus
 
 ## Tests ##
 

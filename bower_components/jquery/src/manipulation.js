@@ -1,18 +1,18 @@
 define([
-	"{{ site.baseurl }}core",
-	"{{ site.baseurl }}var/concat",
-	"{{ site.baseurl }}var/push",
-	"{{ site.baseurl }}core/access",
-	"{{ site.baseurl }}manipulation/var/rcheckableType",
-	"{{ site.baseurl }}manipulation/support",
-	"{{ site.baseurl }}data/var/data_priv",
-	"{{ site.baseurl }}data/var/data_user",
+	"./core",
+	"./var/concat",
+	"./var/push",
+	"./core/access",
+	"./manipulation/var/rcheckableType",
+	"./manipulation/support",
+	"./data/var/data_priv",
+	"./data/var/data_user",
 
-	"{{ site.baseurl }}core/init",
-	"{{ site.baseurl }}data/accepts",
-	"{{ site.baseurl }}traversing",
-	"{{ site.baseurl }}selector",
-	"{{ site.baseurl }}event"
+	"./core/init",
+	"./data/accepts",
+	"./traversing",
+	"./selector",
+	"./event"
 ], function( jQuery, concat, push, access, rcheckableType, support, data_priv, data_user ) {
 
 var
@@ -484,7 +484,7 @@ jQuery.fn.extend({
 			return this.each(function( index ) {
 				var self = set.eq( index );
 				if ( isFunction ) {
-					args[ 0 ] = value.call( this, index, self/() );
+					args[ 0 ] = value.call( this, index, self.html() );
 				}
 				self.domManip( args, callback );
 			});

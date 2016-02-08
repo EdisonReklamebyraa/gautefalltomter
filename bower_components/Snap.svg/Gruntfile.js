@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
         // Metadata.
         pkg: pkg,
-        banner: grunt.file.read("{{ site.baseurl }}src/copy.js")
+        banner: grunt.file.read("./src/copy.js")
             .replace(/@VERSION/, pkg.version)
             .replace(/@DATE/, grunt.template.today("yyyy-mm-dd")) + "\n",
         // Task configuration.
@@ -27,20 +27,20 @@ module.exports = function(grunt) {
             target: {
                 dest: "dist/snap.svg.js",
                 src: [
-                    "{{ site.baseurl }}node_modules/eve/eve.js",
-                    "{{ site.baseurl }}src/amd-banner.js",
-                    "{{ site.baseurl }}src/mina.js",
-                    "{{ site.baseurl }}src/svg.js",
-                    "{{ site.baseurl }}src/matrix.js",
-                    "{{ site.baseurl }}src/attr.js",
-                    "{{ site.baseurl }}src/attradd.js",
-                    "{{ site.baseurl }}src/paper.js",
-                    "{{ site.baseurl }}src/path.js",
-                    "{{ site.baseurl }}src/set.js",
-                    "{{ site.baseurl }}src/equal.js",
-                    "{{ site.baseurl }}src/mouse.js",
-                    "{{ site.baseurl }}src/filter.js",
-                    "{{ site.baseurl }}src/amd-footer.js"
+                    "./node_modules/eve/eve.js",
+                    "./src/amd-banner.js",
+                    "./src/mina.js",
+                    "./src/svg.js",
+                    "./src/matrix.js",
+                    "./src/attr.js",
+                    "./src/attradd.js",
+                    "./src/paper.js",
+                    "./src/path.js",
+                    "./src/set.js",
+                    "./src/equal.js",
+                    "./src/mouse.js",
+                    "./src/filter.js",
+                    "./src/amd-footer.js"
                 ]
             }
         },

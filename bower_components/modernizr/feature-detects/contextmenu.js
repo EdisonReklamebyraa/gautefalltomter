@@ -1,4 +1,4 @@
-// http://www.w3.org/TR/html5/interactive-elements/#context-menus
+// http://www.w3.org/TR/html5/interactive-elements.html#context-menus
 // Demo at http://thewebrocks.com/demos/context-menu/
 Modernizr.addTest(
   'contextmenu', 

@@ -40,7 +40,7 @@
       elCheckbox.id = '__' + name;
       
       var elLabel = document.createElement('label');
-      elLabel/For = '__' + name;
+      elLabel.htmlFor = '__' + name;
       elLabel.innerHTML = 'Exclude ' + name + ' properties?';
       elLabel.style.marginLeft = '0.5em';
       

@@ -1,5 +1,5 @@
 // Browser support test for <style scoped>
-// http://www.w3.org/TR/html5/the-style-element/#attr-style-scoped
+// http://www.w3.org/TR/html5/the-style-element.html#attr-style-scoped
 //
 // by @alrra
 

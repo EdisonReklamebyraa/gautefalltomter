@@ -1,4 +1,4 @@
-// Detect support for svg filters - http://www.w3.org/TR/SVG11/filters/.
+// Detect support for svg filters - http://www.w3.org/TR/SVG11/filters.html.
 // Should fail in Safari: http://stackoverflow.com/questions/9739955/feature-detecting-support-for-svg-filters.
 // detect by erik dahlstrom
 

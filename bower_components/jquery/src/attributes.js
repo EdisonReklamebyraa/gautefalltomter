@@ -1,9 +1,9 @@
 define([
-	"{{ site.baseurl }}core",
-	"{{ site.baseurl }}attributes/attr",
-	"{{ site.baseurl }}attributes/prop",
-	"{{ site.baseurl }}attributes/classes",
-	"{{ site.baseurl }}attributes/val"
+	"./core",
+	"./attributes/attr",
+	"./attributes/prop",
+	"./attributes/classes",
+	"./attributes/val"
 ], function( jQuery ) {
 
 // Return jQuery for attributes-only inclusion

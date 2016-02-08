@@ -1,7 +1,7 @@
 define([
-	"{{ site.baseurl }}core",
-	"{{ site.baseurl }}var/slice",
-	"{{ site.baseurl }}callbacks"
+	"./core",
+	"./var/slice",
+	"./callbacks"
 ], function( jQuery, slice ) {
 
 jQuery.extend({

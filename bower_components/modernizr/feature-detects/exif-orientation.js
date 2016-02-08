@@ -3,7 +3,7 @@
 // iOS looks at the EXIF Orientation flag in jpgs and rotates the image
 // accordingly. Looks like most desktop browsers just ignore this data.
 
-// description: www.impulseadventure.com/photo/exif-orientation/
+// description: www.impulseadventure.com/photo/exif-orientation.html
 
 // Bug trackers:
 //    bugzil.la/298619 (unimplemented)

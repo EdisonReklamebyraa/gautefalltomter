@@ -1,8 +1,8 @@
 define([
-	"{{ site.baseurl }}core",
-	"{{ site.baseurl }}data/var/data_priv",
-	"{{ site.baseurl }}deferred",
-	"{{ site.baseurl }}callbacks"
+	"./core",
+	"./data/var/data_priv",
+	"./deferred",
+	"./callbacks"
 ], function( jQuery, data_priv ) {
 
 jQuery.extend({

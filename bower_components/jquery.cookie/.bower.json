@@ -2,7 +2,7 @@
   "name": "jquery.cookie",
   "version": "1.4.1",
   "main": [
-    "{{ site.baseurl }}jquery.cookie.js"
+    "./jquery.cookie.js"
   ],
   "dependencies": {
     "jquery": ">=1.2"

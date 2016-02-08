@@ -1,15 +1,15 @@
 define([
-	"{{ site.baseurl }}core",
-	"{{ site.baseurl }}var/strundefined",
-	"{{ site.baseurl }}var/rnotwhite",
-	"{{ site.baseurl }}var/hasOwn",
-	"{{ site.baseurl }}var/slice",
-	"{{ site.baseurl }}event/support",
-	"{{ site.baseurl }}data/var/data_priv",
+	"./core",
+	"./var/strundefined",
+	"./var/rnotwhite",
+	"./var/hasOwn",
+	"./var/slice",
+	"./event/support",
+	"./data/var/data_priv",
 
-	"{{ site.baseurl }}core/init",
-	"{{ site.baseurl }}data/accepts",
-	"{{ site.baseurl }}selector"
+	"./core/init",
+	"./data/accepts",
+	"./selector"
 ], function( jQuery, strundefined, rnotwhite, hasOwn, slice, support, data_priv ) {
 
 var
@@ -658,7 +658,7 @@ jQuery.Event = function( src, props ) {
 };
 
 // jQuery.Event is based on DOM3 Events as specified by the ECMAScript Language Binding
-// http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding/
+// http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
 jQuery.Event.prototype = {
 	isDefaultPrevented: returnFalse,
 	isPropagationStopped: returnFalse,

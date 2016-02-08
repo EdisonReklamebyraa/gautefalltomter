@@ -3,7 +3,7 @@ define([
 	"../var/rnotwhite",
 	"../var/strundefined",
 	"../core/access",
-	"{{ site.baseurl }}support",
+	"./support",
 	"../selector"
 ], function( jQuery, rnotwhite, strundefined, access, support ) {
 
