@@ -12,4 +12,4 @@ Rytterspranget Vest har nå alt av infrastruktur på plass, til og med klart for
 Som kjent er det 100% opp til deg hvilken hytteleverandør du velger, eller om du bare ønsker hytta ferdig utvendig og vil ta den innvendige jobben selv. Men det aller viktigste er å finne ei tomt som er den beste for deg, hytter kan forandres på, det kan du ikke med utsikten. Det er derfor lurt å ta en grundig visning hvor nettopp deres ønsker og behov settes i høysetet.  
 
 Ta gjerne kontakt med Olav på tlf. 98 22 18 45, han er på Gautefall nesten hver helg. Les også mer om området og tomtene på www.gautefalltomter.no 
-Velkommen til en visning på Gautefalls flotteste beliggenhet 
+Velkommen til en visning på Gautefalls flotteste beliggenhet 
