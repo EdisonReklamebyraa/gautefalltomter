@@ -11,8 +11,11 @@ Hvordan kan vi klare å levere et kvalitetsprodukt i moderne design til denne pr
 <!--more--> 
 
 Det er tre svar på det:
+
 1. Vår flinke arkitekt Morten Andersen har sammen med oss utviklet 2 nye hyttetyper ( KUBEN og UTSYN) som begge har en meget god plassutnyttelse og store vinduer. Og ikke minst måtte de være meget rasjonelle og produsere i elementer som kan heises på plass på et par dager.
+
 2. Lokale håndverkere har spesialisert seg på produksjon av slike elementer i store haller, hvor de gjennom lang erfaring har utviklet en effektiv og kvalitetssikker produksjon.
+
 3. Alle hyttene får eiendomstomt, men disse er ikke så store. Alt i fra ca 250 til 350 kvm.
 
 <!--more--> 
