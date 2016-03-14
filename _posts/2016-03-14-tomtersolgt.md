@@ -5,7 +5,9 @@ image:
 ---
 
 17 tomter er nå solgt på Rytterspranget Vest
-Men vi har flere flotte vestvendte utsiktstomter igjen, det blir visninger i hele påsken. Kontakt Olav Gjelstad på 98 22 18 45 eller på epost olav.gjelstad@gautefalltomter.no
+Men vi har flere flotte vestvendte utsiktstomter igjen, det blir visninger i hele påsken. 
+
+Kontakt Olav Gjelstad på 98 22 18 45 eller på epost olav.gjelstad@gautefalltomter.no
 
 <!--more-->
 
