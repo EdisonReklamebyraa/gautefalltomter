@@ -1,7 +1,7 @@
 ---
 title: Er dette interessant?
 layout: post
-image: /assets/images/bildetilgautefallbloggen.jpg
+image: 
 ---
 
 Vi kan nå tilby nøkkelferdig hytte med tre soverom og to stuer fra kr. 1 690 000,- på eiendomstomt på Gautefalltunet med ski inn/ut. (se bilder av modellene under) Det eneste som kommer i tillegg er byggestrøm, utvendig beising og tilkoblingsavgift til kommunen på kr. 75 000,-
